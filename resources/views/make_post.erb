@@ -1,0 +1,18 @@
+<script src="/ckeditor/ckeditor.js"></script>
+<form action='/make_post' method='post'>
+    <label for="name" id="story_label">Name of story:</label>
+    <input type="text" name='name' id='name' required pattern="[a-zA-Z]{1,}"/>
+    <textarea style="align: center;" name="editor1" id="editor1" rows="10" cols="80"></textarea>
+    <input align='center' type='submit'>
+</form>
+<script>
+    CKEDITOR.replace('editor1', 
+    {
+        uiColor: '#333333',
+        width: '100%',
+        extraPlugins: 'autogrow',
+        autoGrow_minHeight: 200,
+        autoGrow_maxHeight: 600,
+        autoGrow_bottomSpace: 50
+    } );
+</script>

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Ubuntu');
+
+html {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+}
+
+#body {
+    padding: 20px;
+    margin: 0;
+}
+
+#wrapper {
+    width: minmax(600px, 1150px);
+    min-height: 98%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#header {
+    text-align: left;
+    min-height: 110px;
+    max-height: 110px;
+    width: minmax(600px, 1150px);
+    padding: 5px 0px 0px 25px;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+#navbar {
+    margin: 0;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navbar li {
+    float: left;
+    margin-left: 3px;
+    width: 100px;
+    height: 50px;
+    display: table;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#navbar li a {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+#content {
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+    padding-top: 50px;
+}
+
+input {
+    margin: 10px;
+}
+
+#footer {
+    padding: 20px 0px 10px 25px;
+}

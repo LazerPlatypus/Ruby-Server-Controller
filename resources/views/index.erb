@@ -1,0 +1,9 @@
+<form action='/index' method='post'>
+    <label id="select_box" for="options">
+    <select type='text' name='filename' id="options">
+        <%@filenames.each() do |filename|%>
+            <option value='<%=filename%>'><%=filename%></option>
+        <%end%>
+    </select></label>
+    <input type='submit'>
+</form>

@@ -1,0 +1,1 @@
+<p><strong>bold</strong></p><p><strong><em>Italics</em></strong></p><ol><li><strong><em>bullet</em></strong></li></ol><ul><li><strong><em>List</em></strong></li></ul><p><strong><em><a href="http://www.google.com">google</a></em></strong></p>

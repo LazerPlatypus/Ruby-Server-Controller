@@ -1,0 +1,7 @@
+wrapper|background-color:#ffffff|color:#000000|font-family:"Ubuntu"sans-serif|font-size:14pt
+header|background-color:#999999|color:#cccccc|font-family:"Arvo",serif|font-size:18pt
+navbar|background-color:#000000|color:#dddddd|font-family:"Ubuntu",sans-serif|font-size:12pt
+body|background-color:#cccccc|color:#000000|font-family:"Ubuntu",sans-serif|font-size:14pt
+a:link|background-color:transparent|color:#444444|font-family:"Ubuntu",sans-serif|font-size:14pt
+a:visited|background-color:transparent|color:#444444|font-family:"Ubuntu",sans-serif|font-size:14pt
+footer|background-color:transparent|color:#000000|font-family:"Arvo",serif|font-size:8pt
